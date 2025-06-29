@@ -119,4 +119,15 @@ DevOps	Docker, Docker Compose, Nginx
 
 Demo
 
-![image](https://drive.google.com/uc?export=view&id=1T4cq2H7UwBtpvjyErm2NaBJpfH4wgQEy)
+<!DOCTYPE html>
+<html>
+<body>
+  
+  <iframe src="https://drive.google.com/file/d/1T4cq2H7UwBtpvjyErm2NaBJpfH4wgQEy/preview" width="640" height="480" allow="autoplay"></iframe>
+  
+  <!--aloow full screen add tag -->
+  
+<iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1T4cq2H7UwBtpvjyErm2NaBJpfH4wgQEy/preview" ></iframe>
+
+</body>
+</html>
