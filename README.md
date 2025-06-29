@@ -8,7 +8,7 @@ This repository contains a complete full-stack application for managing restaura
 - **DevOps**: Docker, Nginx
 
 ---
-
+```bash
 ## 📁 Project Structure
 
 root/
@@ -23,7 +23,7 @@ root/
 │
 ├── mobile/
 │ └── task5_flutter_app/ # Flutter mobile app
-
+```
 
 ## ✅ Tasks Completed
 
@@ -45,11 +45,14 @@ cd backend/task1
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r ../requirements.txt
-
+```
+```bash
 DEBUG=True
 SECRET_KEY=your-secret-key
 ALLOWED_HOSTS=*
+```
 
+```bash
 POSTGRES_DB=postgres
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
@@ -58,25 +61,27 @@ DB_PORT=5432
 
 REDIS_HOST=redis
 REDIS_PORT=6379
-
-
+```
+```bash
 🐳 Start Database Services
 bash
 Copy
 Edit
 docker-compose up -d
+
+```
+```bash
 🛠 Run Migrations & Start Server
-bash
-Copy
-Edit
+
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
+
+```
+```bash
 🌐 Frontend Setup – React (Task 3 & 4)
 Task 3: List Restaurants
-bash
-Copy
-Edit
+
 cd frontend/task3
 npm install
 npm start
@@ -87,23 +92,23 @@ Edit
 cd frontend/task4
 npm install
 npm start
-
-
+```
+```bash
 📱 Mobile Setup – Flutter (Task 5)
 📦 Install & Run
-bash
-Copy
-Edit
+
 cd mobile/task5_flutter_app
 flutter pub get
 flutter run
 Make sure backend is running on your host and accessible via http://10.0.2.2:8000 (for Android emulator).
+```
 
 📄 API Endpoints
 Method	Endpoint	Description
 GET	/api/restaurants/	List all restaurants
 POST	/api/restaurants/	Create new restaurant
 GET	/admin/	Django admin panel
+
 
 🧠 Technologies Used
 Layer	Tools
@@ -112,3 +117,6 @@ Frontend	React, Axios, React Hooks
 Mobile	Flutter, Dart
 DevOps	Docker, Docker Compose, Nginx
 
+Demo
+
+![image](https://drive.google.com/uc?export=view&id=1T4cq2H7UwBtpvjyErm2NaBJpfH4wgQEy)
