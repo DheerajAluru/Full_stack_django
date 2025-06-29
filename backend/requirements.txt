@@ -1,0 +1,9 @@
+python-decouple 
+psycopg2-binary
+Django
+djangorestframework
+redis
+grpcio
+grpcio-tools
+paho-mqtt
+django-cors-headers
