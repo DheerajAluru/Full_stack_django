@@ -1,0 +1,21 @@
+venv/
+**/node_modules/
+**/build/
+**/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.env
+.env
+
+# Node.js
+**/node_modules/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
